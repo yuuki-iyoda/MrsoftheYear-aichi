@@ -618,6 +618,9 @@ footer .footer-contents p {
 
 /* ------------------------------------- スマホ ------------------------------------- */
 @media screen and (max-width: 415px) {
+  #greeting, #director, #g-greeting, #overview {
+    border: 15px solid #8D3043;
+  }
   .sp {
     display: block;
   }
@@ -649,6 +652,9 @@ footer .footer-contents p {
   }
   header .head .header-text {
     font-size: 14px;
+  }
+  #greeting {
+    border: 15px solid #8D3043;
   }
   #greeting .d-image {
     width: 120px;
