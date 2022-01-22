@@ -618,7 +618,7 @@ footer .footer-contents p {
 
 /* ------------------------------------- スマホ ------------------------------------- */
 @media screen and (max-width: 415px) {
-  #greeting, #director, #g-greeting, #overview {
+  #greeting, #director, #g-greeting, #overview, #sponsor {
     border: 15px solid #8D3043;
   }
   .sp {
