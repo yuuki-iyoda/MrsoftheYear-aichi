@@ -134,6 +134,7 @@ p{
     font-family: 'Noto Serif JP', serif;
 }
 
+
 header{
     .head{
         text-align: center;
@@ -142,6 +143,13 @@ header{
             font-size: 550%;
             margin-top: 45px;
             margin-bottom: 30px;
+            position: relative;
+            img{
+                width: 120px;
+                position: absolute;
+                top: -24px;
+                transform: rotate( 7deg );
+            }
         }
     }
     ul{
@@ -595,6 +603,12 @@ footer{
         .head{
             .header-main{
                 font-size: 35px;
+                img{
+                    width: 45px;
+                    position: absolute;
+                    top: -9px;
+                    transform: rotate( 7deg );
+                }
             }
             .header-text{
                 font-size: 14px;
