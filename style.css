@@ -156,6 +156,14 @@ header .head .header-main {
   font-size: 550%;
   margin-top: 45px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+header .head .header-main img {
+  width: 120px;
+  position: absolute;
+  top: -24px;
+  transform: rotate(7deg);
 }
 
 header ul {
@@ -649,6 +657,12 @@ footer .footer-contents p {
   }
   header .head .header-main {
     font-size: 35px;
+  }
+  header .head .header-main img {
+    width: 45px;
+    position: absolute;
+    top: -9px;
+    transform: rotate(7deg);
   }
   header .head .header-text {
     font-size: 14px;
